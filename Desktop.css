@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1024px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    #Nav-Bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #Nav-Bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 1%;
+        padding-right: 4%; 
+
+    }
+
+    #Nav-Bar ul li {
+        background-color: #f6f6f6
+    }
+
+    #Home-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #personal-image {
+        width: 50%;
+    }
+
+
+    #about {
+        width: 50%;
+        text-align: left;
+    }
+
+    #about p {
+        padding: 5% 5%;
+
+    }
+
+    #Portfolio-section {
+        display: flex;
+    }
+
+    #projects {
+      display: flex;
+      flex-flow: row wrap;
+
+    }
+
+     .portfolio-project {
+        display: flex;
+        flex-direction: column;
+        width: 33.3%;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #btt {
+        display: none;
+    }
+
+
+    #footer ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+
+     #footer ul li {
+        margin: 0px 3px 0px 3px;
+    }
+}
