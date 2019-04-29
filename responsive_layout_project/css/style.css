@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#Nav-Bar {
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+#Nav-Bar h1 {
+    padding: 20px;
+}
+
+#Nav-Bar ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#Nav-Bar ul li {
+    height: 30px;
+    padding-top: 10px;
+    margin: 4px 10px 4px 10px;
+    background-color: white;
+}
+
+#Nav-Bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#Home-section {
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+#personal-image {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#personal-image img {
+    width: 220px;
+    padding: 25px 25px 20px 25px;
+
+}
+
+#about {
+    text-align: center;
+
+}
+
+#about p {
+    padding: 20px;
+}
+
+#Portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+#Portfolio-section h2 {
+    padding: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.porfolio-project {
+    align-self: center;
+}
+
+.portfolio-project img {
+    height: 160px;
+    width: 280px;
+    padding: 20px;
+}
+
+.portfolio-project h3 {
+    padding: 15px;
+}
+
+.portfolio-project p {
+    padding: 10px 25px 10px 25px;
+}
+
+#Contact-section {
+    text-align: center;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+}
+
+#Contact-section h2 {
+    padding: 25px 20px 15px 20px;
+}
+
+#Contact-section p {
+    padding: 10px 20px 15px 20px;
+
+}
+
+#Contact-section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    width: 85%;
+    background-color: #f6f6f6;
+    border: 0.5px solid black;
+    align-self: center;
+    margin-top: 10px;
+}
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f6f6f6;
+    padding: 25px 10px 30px 25px;
+
+}
+
+#footer h3, a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#footer ul {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    #Nav-Bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    #Home-section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 30px;
+    }
+
+    #personal-image {
+        width: 50%;
+    }
+
+    #personal-image img {
+        height: 200px;
+        width: 70%;
+        object-fit: cover;
+        top: 30px;
+    }
+
+    #about {
+        width: 50%;
+    }
+
+    #about p {
+        text-align: left;
+        padding-left: 30px;
+
+    }
+
+    #Nav-Bar ul li {
+        background-color: #f6f6f6;
+    }
+
+
+    #portfolio-header {
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-project {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    
+
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #btt {
+        display: none;
+    }
+
+    #footer ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    #footer ul li {
+        margin: 0px 3px 0px 3px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    #Nav-Bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #Nav-Bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 1%;
+        padding-right: 4%; 
+
+    }
+
+    #Nav-Bar ul li {
+        background-color: #f6f6f6
+    }
+
+    #Home-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #personal-image {
+        width: 50%;
+    }
+
+
+    #about {
+        width: 50%;
+        text-align: left;
+    }
+
+    #about p {
+        padding: 5% 5%;
+
+    }
+
+    #Portfolio-section {
+        display: flex;
+    }
+
+    #projects {
+      display: flex;
+      flex-flow: row wrap;
+
+    }
+
+     .portfolio-project {
+        display: flex;
+        flex-direction: column;
+        width: 33.3%;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+
+    #footer ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+
+     #footer ul li {
+        margin: 0px 3px 0px 3px;
+    }
+}
+
